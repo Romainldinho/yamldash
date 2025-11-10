@@ -2,6 +2,7 @@ schedule:
   - name: Morning
     start: "08:00"
     end: "09:30"
+    interval: 30
     urls:
       - "https://www.lac-annecy.com/meteo/"
       - "https://news.google.com/topstories?hl=fr&gl=FR&ceid=FR:fr"
@@ -12,6 +13,7 @@ schedule:
   - name: Work Start
     start: "09:30"
     end: "12:00"
+    interval: 30
     urls:
       - "https://grafana.com/"
       - "https://www.notion.so/your-dashboard"
@@ -23,6 +25,7 @@ schedule:
   - name: Lunch Break
     start: "12:00"
     end: "14:30"
+    interval: 30
     urls:
       - "https://www.google.com"
       - "https://apod.nasa.gov/apod/astropix.html"
@@ -31,6 +34,7 @@ schedule:
   - name: Afternoon
     start: "14:30"
     end: "18:00"
+    interval: 30
     urls:
       - "https://grafana.com/"
       - "https://www.notion.so/your-dashboard"
@@ -44,6 +48,7 @@ schedule:
   - name: Night
     start: "18:00"
     end: "08:00"
+    interval: 30
     urls:
       - "https://trends.google.com/trends/trendingsearches/daily"
       - "https://apod.nasa.gov/apod/astropix.html"

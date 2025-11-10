@@ -1,0 +1,14 @@
+{
+  "name": "yamldash",
+  "version": "1.0.0",
+  "description": "Dashboard Raspberry Pi basé sur YAML",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0",
+    "js-yaml": "^4.1.0"
+  }
+}
